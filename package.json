@@ -9,7 +9,7 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "mocha": "*",
-    "xunit-file": "*"
+    "mocha": "1.20.*",
+    "xunit-file": "0.0.5"
   }
 }
