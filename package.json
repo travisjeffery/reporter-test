@@ -10,6 +10,7 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "mocha": "1.20.*",
-    "xunit-file": "0.0.5"
+    "xunit-file": "0.0.5",
+    "qunit-mocha-ui": "0.0.5"
   }
 }

@@ -1,14 +1,10 @@
 var Person = require('../lib/person');
 var assert = require('assert');
 
-describe('person', function(){
-  var person;
+suite('person');
 
-  before(function(){
-    person = new Person('travis');
-  });
+test('should have a name', function(){
+  var person = new Person('travis');
 
-  it('should have a name', function(){
-    assert.equal('travis', person.name);
-  })
-});
+  assert.equal('travis', person.name);
+})
